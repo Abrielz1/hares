@@ -5,13 +5,9 @@ public class MountainHare {
         int jumpLength;
         static String color;
         public MountainHare(int age, double  weight, int jumpLength){
-        this.age = age;
-        this.weight = weight;
-        this.jumpLength = jumpLength;
-        }
-
-        public static String getColor() {
-                return color;
+                this.age = age;
+                this.weight = weight;
+                this.jumpLength = jumpLength;
         }
 
         public static void setColor(String color) {
@@ -21,12 +17,11 @@ public class MountainHare {
 
         @Override
         public String toString() {
-            return "Заяц-беляк: " +
-                    "age=" + age +
-                    ", weight=" + weight +
-                    ", jumpLength=" + jumpLength +
-                    ", color=" + color +
-                    '.';
+                return "Заяц-беляк: " +
+                        "age=" + age +
+                        ", weight=" + weight +
+                        ", jumpLength=" + jumpLength +
+                        ", color=" + color +
+                        '.';
         }
-    }
-
+}

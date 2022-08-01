@@ -9,16 +9,16 @@ public class Practicum {
         );
         Forest forest = new Forest(hares);
         System.out.println("В лесу лето!");
-        Forest.setSeason("лето");
+        forest.setSeason("лето");
 
         System.out.println("Список зайцев:");
-        Forest.printHares();
+        forest.printHares();
 
         System.out.println("В лесу зима!");
-        Forest.setSeason("зима");
+        forest.setSeason("зима");
 
         System.out.println("Список зайцев:");
-        Forest.printHares();
+        forest.printHares();
 
     }
 }

@@ -2,16 +2,12 @@ import java.util.List;
 
 public class Forest {
 
-
-
     private static String season;
 
-   public static List<MountainHare> hares;
+    public List<MountainHare> hares;
+
     public Forest(List<MountainHare> hares) {
-        hares = hares;
-    }
-    public static String getSeason() {
-        return season;
+        this.hares = hares;
     }
 
     public static void setSeason(String season) {
@@ -24,7 +20,7 @@ public class Forest {
         }
     }
 
-    public static void printHares() {
+    public void printHares() {
         for (MountainHare hare : hares) {
             System.out.println(hare);
         }
